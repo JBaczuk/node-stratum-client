@@ -1,6 +1,6 @@
 {
   "name": "node-stratum-client",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "",
   "description": "Stratum protocol client for Node.js",
   "main": "bin/index.js",
