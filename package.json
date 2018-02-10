@@ -1,0 +1,32 @@
+{
+  "name": "node-stratum-client",
+  "version": "1.0.0",
+  "author": "",
+  "description": "Stratum protocol client for Node.js",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "test": "jest --watch",
+    "example": "node src/example.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.1.2",
+    "@types/node": "^9.4.4",
+    "jest": "^22.0.4",
+    "rollup": "^0.53.1",
+    "rollup-plugin-typescript": "^0.8.1",
+    "ts-jest": "^22.0.1",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test))\\.ts$",
+    "moduleFileExtensions": [
+      "ts", 
+      "js"
+    ]
+  }
+}
